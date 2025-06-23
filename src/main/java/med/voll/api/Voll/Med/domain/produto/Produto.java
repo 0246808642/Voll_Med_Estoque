@@ -1,14 +1,13 @@
-package med.voll.api.Voll.Med.Produto;
+package med.voll.api.Voll.Med.domain.produto;
 
 
 import jakarta.persistence.*;
-import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import med.voll.api.Voll.Med.Enums.Qualidade;
-import med.voll.api.Voll.Med.Fornecedor.Fornecedor;
+import med.voll.api.Voll.Med.enums.Qualidade;
+import med.voll.api.Voll.Med.domain.fornecedor.Fornecedor;
 
 @Getter
 @NoArgsConstructor

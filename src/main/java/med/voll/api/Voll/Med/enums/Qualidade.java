@@ -1,4 +1,4 @@
-package med.voll.api.Voll.Med.Enums;
+package med.voll.api.Voll.Med.enums;
 
 public enum Qualidade {
     ORIGINAL,

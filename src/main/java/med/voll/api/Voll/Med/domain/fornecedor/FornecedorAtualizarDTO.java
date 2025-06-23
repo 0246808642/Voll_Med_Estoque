@@ -1,9 +1,9 @@
-package med.voll.api.Voll.Med.Fornecedor;
+package med.voll.api.Voll.Med.domain.fornecedor;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.Pattern;
-import med.voll.api.Voll.Med.Endereco.EnderecoAtualizarDTO;
+import med.voll.api.Voll.Med.domain.endereco.EnderecoAtualizarDTO;
 
 public record FornecedorAtualizarDTO(
         String nome,

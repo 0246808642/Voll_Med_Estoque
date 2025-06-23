@@ -1,6 +1,6 @@
-package med.voll.api.Voll.Med.Produto;
+package med.voll.api.Voll.Med.domain.produto;
 
-import med.voll.api.Voll.Med.Enums.Qualidade;
+import med.voll.api.Voll.Med.enums.Qualidade;
 
 public record DadosListagemProduto(Long id, String nome, String codigo, Qualidade qualidade,String nome_Fornecedor,String email,String telefone,String uf,String cidade) {
 

@@ -1,8 +1,8 @@
-package med.voll.api.Voll.Med.Produto;
+package med.voll.api.Voll.Med.domain.produto;
 
 import jakarta.validation.constraints.NotNull;
-import med.voll.api.Voll.Med.Endereco.EnderecoAtualizarDTO;
-import med.voll.api.Voll.Med.Enums.Qualidade;
+import med.voll.api.Voll.Med.domain.endereco.EnderecoAtualizarDTO;
+import med.voll.api.Voll.Med.enums.Qualidade;
 
 public record DadosAtualizaProduto(
         @NotNull
