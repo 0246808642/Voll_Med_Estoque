@@ -1,5 +1,5 @@
 # Voll_Med_Estoque
-# Voll Med Estoque 🏥📦
+# Voll Med Estoque📦
 
 Sistema de controle de estoque, desenvolvido com **Java + Spring Boot**, seguindo boas práticas de segurança, arquitetura e versionamento de banco de dados. O projeto inclui autenticação via JWT, validação de dados e organização por camadas (Controller, Service, DTO, Repository).
 
