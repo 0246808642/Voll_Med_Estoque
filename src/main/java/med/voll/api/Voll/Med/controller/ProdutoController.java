@@ -30,6 +30,7 @@ public class ProdutoController {
 
     @GetMapping
     public ResponseEntity<Page<DadosListagemProduto>> listar(@PageableDefault(size = 10,sort = {"id"}) Pageable pag){
+
         var page = repository.findAllByAtivoTrue(pag).map(DadosListagemProduto::new);
         return ResponseEntity.ok(page);
     }
